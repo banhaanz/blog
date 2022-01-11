@@ -1,6 +1,0 @@
-{
-    "rootURL": "http://localhost",
-    "port":"8085",
-    "contextPath":"/api/v1",
-    "demoEnabled": false
-}
