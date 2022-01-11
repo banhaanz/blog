@@ -11,7 +11,7 @@
         },
         {
             "id": "3",
-            "slug": "12",
+            "slug": "11",
             "group": "ANGULAR",
             "heading": "การ config baseHref",
             "subHeading": "เพื่อแก้ปัญหา deploy Angular app แล้ว root path พัง",
@@ -20,7 +20,7 @@
         },
         {
             "id": "3",
-            "slug": "12",
+            "slug": "13",
             "group": "JAVA",
             "heading": "ตัวอย่างการใช้ Java 8 : method Comparator",
             "subHeading": "การใช้งาน Comparator กับข้อมูลประเภท collection",
