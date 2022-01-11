@@ -1,0 +1,31 @@
+{
+    "contentList2022":[
+        {
+            "id": "1",
+            "slug": "10",
+            "group": "SPRING BOOT",
+            "heading": "การสร้าง api ด้วย spring boot",
+            "subHeading": "หัวข้อนี้จะเป็นการทดสอบการสร้าง api ด้วย spring boot",
+            "meta": "string111",
+            "body": "# ทดสอบการทำงาน \n ## ของ markdown \n ![]()<img src='assets/img/home-bg.jpg' width='300'> \n```csharp\npublic class Foo {} \n``` \n&#x0a;\n" 
+        },
+        {
+            "id": "3",
+            "slug": "12",
+            "group": "ANGULAR",
+            "heading": "การ config baseHref",
+            "subHeading": "เพื่อแก้ปัญหา deploy Angular app แล้ว root path พัง",
+            "meta": "string333",
+            "body": "สำหรับ Angular เมื่อเราทำการ build app เสร็จแล้ว(จะอยู่ในโฟลเดอร์ dist/ ) เพื่อที่จะนำไป deploy บน server ต่างๆ มักจะเกิดปัญหา คือ เกิดหา rootpath ของ app ไม่เจอ \n ```\n rootpath คือ path เริ่มต้นที่ server จะวิ่งไปหาไฟล์ index.html \n``` \n ปกติ rootpath จะอยู่ต่อจาก domain path เช่น \n\n https://example.com/codecoolz \n\n https://example.com     =>   คือ domain path \n\n /codecoolz    =>   คือ root context path หรือ rootpath นั่นเอง  โดยมักจะเป็นโฟลเดอร์ของ app ที่เราได้ deploy ที่วางอยู่ ณ ตำแหน่ง root ของ server \n\n ![]()<img src='assets/img/contents_img/p0001.PNG' width='600'> \n\n *ตายเรียบ เพราะหา path ไม่เจอ (ในรูป path ที่ถูกต้องคือ /codecoolz-blog)* \n\n ถ้าลองเปิดดูไฟล์ index.html ของ app ที่ build แล้ว จะพบแท็ก < base href > จุดนี้เองที่เป็นจุด config ค่าของ rootpath ไว้  \n\n ![]()<img src='assets/img/contents_img/p0002.PNG' width='600'> \n\n วิธีแก้ ...ไม่ใช่แก้ hardcode ที่แท็ก < base href > ดื้อๆ นะครับ แบบนี้ไม่ดี วิธีแก้ที่ถูกต้อง คือ ควร config ค่าให้ถูกต้องตั้งแต่ตอนใส่คำสั่ง ng -- build เลย \n\n เราสามารถระบุ rootpath ตอนใส่คำสั่ง ng -- build แบบนี้ได้  \n ```csharp\n ng -- build --baseHref=/< rootpath ที่ต้องการ >/ \n //ตัวอย่าง ng -- build --baseHref=/codecoolz-blog/ \n ``` \n เพียงเท่านี้ ก็สามารถแก้ปัญหา build app แล้วหา rootpath ไม่เจอได้แล้วครับ" 
+        },
+        {
+            "id": "3",
+            "slug": "12",
+            "group": "JAVA",
+            "heading": "ตัวอย่างการใช้ Java 8 : method Comparator",
+            "subHeading": "การใช้งาน Comparator กับข้อมูลประเภท collection",
+            "meta": "string333",
+            "body": "content001.md"
+        }                
+    ]
+}
